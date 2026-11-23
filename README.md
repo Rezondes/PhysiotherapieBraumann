@@ -18,7 +18,7 @@ Reine statische Seite ohne Build-Schritt und ohne externe Abhängigkeiten.
 | `datenschutz.html` | Datenschutz-Vorlage (Hosting bei IONOS angenommen) |
 | `style.css` | Gesamtes Styling, Farben als Tokens in `:root` (Palette 60-30-10) |
 | `fonts/` | Bricolage Grotesque, lokal eingebunden (keine Anfrage an Google), Lizenz in `fonts/OFL.txt` |
-| `img/` | Logo (freigestellt), Favicon- und Touch-Icons |
+| `img/` | Logo (freigestellt), Favicon- und Touch-Icons, `og-image.png` (Link-Vorschau 1200x630) |
 | `favicon.ico` | Browser-Tab-Icon (Biene aus dem Logo) |
 
 ## Lokal ansehen
@@ -33,5 +33,6 @@ Danach http://localhost:8765 öffnen.
 
 - Gelb markierte Platzhalter in `impressum.html` und `datenschutz.html` ausfüllen und rechtlich prüfen lassen.
 - `noindex` in `index.html` entfernen.
+- `og:url` und `og:image` in `index.html` auf die echte Domain umstellen.
 - Logo als SVG oder größere PNG (mindestens 600 px breit) von der Praxis besorgen.
 - Den Hinweis "Gut zu wissen" zum Hausbesuch auf Kassenrezept von der Praxis bestätigen lassen.
